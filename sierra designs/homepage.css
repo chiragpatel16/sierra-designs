@@ -1,0 +1,651 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navcontent {
+  background-color: #007681;
+  height: 25px;
+  width: 100%;
+}
+.text {
+  text-align: center;
+}
+.navcontent2 {
+  background-color: #241f1f;
+  height: 95px;
+  width: 100%;
+}
+.nav-item a {
+  color: white;
+  margin-left: 75px;
+}
+li::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid white;
+  width: 0%;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar-nav li:hover::after {
+  width: 51%;
+  margin-left: 75px;
+}
+.navbar-nav li a:hover {
+  color: yellow;
+}
+label {
+  margin-left: 15%;
+}
+label input {
+  padding: 4px;
+  border-radius: 8px;
+}
+/* nav end  */
+
+/* banner 1 start */
+.banner {
+  margin-top: 1px;
+  height: 650px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.banner img {
+  height: 650px;
+  width: 100%;
+}
+label {
+  margin-left: 15%;
+}
+label input {
+  padding: 4px;
+  border-radius: 8px;
+}
+.shop-now {
+  position: absolute;
+  left: 5%;
+  top: 72%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/* banner1 end */
+
+/* featured Gear start  */
+.Featured-Gear {
+  height: 550px;
+  width: 100%;
+  display: flex;
+}
+span {
+  font-size: 45px;
+  color: black;
+  margin-left: 65px;
+}
+.image {
+  height: 500px;
+  width: 91%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-div1 {
+  height: 500px;
+  width: 30%;
+}
+.image-div1 img {
+  height: 500px;
+  width: 100%;
+}
+
+.image-div2 {
+  height: 500px;
+  width: 30%;
+}
+.image-div2 img {
+  height: 500px;
+  width: 100%;
+}
+.image-div3 {
+  height: 500px;
+  width: 30%;
+}
+.image-div3 img {
+  height: 500px;
+  width: 100%;
+}
+.Shop-sleeping-bags {
+  position: absolute;
+  left: 6%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.image-div1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+.shop-pack {
+  position: absolute;
+  left: 38%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.image-div2 a:hover {
+  color: white;
+  text-decoration: none;
+}
+.shop-tent {
+  position: absolute;
+  left: 70%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.image-div3 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* featured Gear end */
+
+
+/* slider-wrapper1 start*/
+.slider-wrapper1 {
+  width: 91%;
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth; 
+  margin: auto;
+  margin-top: 90px;
+}
+
+.image-card {
+  width: 340px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.image-hover {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-hover img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease; 
+}
+
+.boy {
+   opacity: 0; 
+}
+
+.image-hover:hover .girl {
+  opacity: 0;
+}
+
+.image-hover:hover .boy {
+  opacity: 1;
+}
+
+.product-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-info h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #333;
+}
+
+.product-info p {
+  font-size: 16px;
+  color: #777;
+}
+/* slider-wrapper1 end all  */
+
+/* banner2 start */
+.banner2 {
+  margin-top: 150px;
+  background-color: pink;
+  height: 700px;
+  width: 100%;
+}
+.banner2 img {
+  height: 700px;
+  width: 100%;
+}
+
+.textcontent1 {
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 285%;
+  margin-left: 55px;
+  color: white;
+  margin-top: 500px;
+}
+
+.find-tent {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.shopbags {
+  position: relative;
+  left: 3%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textcontent1 a:hover {
+  color: white;
+}
+/* banner 2 end */
+
+/* slider-wrapper2 start */
+.slider-wrapper2 {
+  width: 91%; /* 3 cards x 220px (including gap) */
+   overflow-x: auto; 
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth;
+  margin: auto;
+  margin-top: 90px;
+}
+/* slider-wrapper2 end */
+
+/*  banner3 start*/
+.banner3 {
+  margin-top: 120px;
+  background-color: pink;
+  height: 700px;
+  width: 100%;
+}
+.banner3 img {
+  height: 700px;
+  width: 100%;
+}
+
+.watch-now {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.textcontent2 a:hover {
+  color: white;
+}
+
+.textcontent2 {
+  margin-top: 1100px;
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 365%;
+  margin-left: 65px;
+  color: white;
+}
+
+/*  banner3 end*/
+
+/* slider-wrpper3 start */
+.slider-wrapper3 {
+  width: 91%; /* 3 cards x 220px (including gap) */
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth;
+  margin: auto;
+  margin-top: 90px;
+}
+/* slider-wrpper3 start */
+
+/* banner4 start */
+.banner4 {
+  margin-top: 150px;
+  background-color: pink;
+  height: 700px;
+  width: 100%;
+}
+.banner4 img {
+  height: 700px;
+  width: 100%;
+}
+.textcontent3 {
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 450%;
+  margin-left: 65px;
+  color: white;
+  margin-top: 1650px;
+}
+.textcontent3 a:hover {
+  color: white;
+}
+.learn {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+/* banner4 end */
+
+/* footer gallery start*/
+ .gallery {
+   height: 550px;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.imgcontent
+{
+    height: 550px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image1
+{
+    height: 400px;
+    width: 32%;
+}
+.image1 img
+{
+    height: 400px;
+    width: 100%;
+}
+.image2
+{
+    height: 400px;
+    width: 32%;
+}
+.image2 img
+{
+    height: 400px;
+    width: 100%;
+}
+
+.image3
+{
+    height: 400px;
+    width: 32%;
+}
+.image3 img
+{
+    height: 400px;
+    width: 100%;
+}
+/* footer gallery end */
+
+
+/* footer */
+.footer {
+  background-color: #00000E;
+  color: #fff;
+  padding: 30px 20px ;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 1200px;
+  margin-left:45px ;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: yellow;
+}
+
+/* email */
+.email {
+  background-color: #00000E; /* Matches the dark theme */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin-top: 5px;
+}
+
+.email h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.email p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.email-form {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+}
+
+.email-form input {
+  flex: 2;
+  padding: 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #00000E;
+  color: #fff;
+  font-weight: bold;
+}
+
+.email-form input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.email-form button {
+  flex: 1;
+  padding: 14px;
+  background-color: #fff;
+  color: #00000E;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  font-size: 10px;
+  color: #ccc;
+}
+
+.footer-links a {
+    margin-left: 40px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* footer end */
+
+/* sales banner css */
+
+/* banner 1 start */
+.salebanner {
+  margin-top: 1px;
+  height: 650px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.salebanner img {
+  height: 650px;
+  width: 100%;
+}
+
+
+
+
+.slider-wrapper5 {
+  width: 91%;
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+  scroll-behavior: smooth; 
+  margin: auto;
+  margin-top: 90px;
+}
+
+.image-card1 {
+  width: 340px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.image-hover1 {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-hover1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease; 
+}
+
+.boy1 {
+   opacity: 0; 
+}
+
+.image-hover1:hover .girl1 {
+  opacity: 0;
+}
+
+.image-hover1:hover .boy1 {
+  opacity: 1;
+}
+
+.product-info1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-info1 h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #333;
+}
+
+.product-info1 p {
+  font-size: 16px;
+  color: #777;
+}
