@@ -1,0 +1,626 @@
+/* Media Queries */
+@media (max-width: 1200px) {
+
+    
+    label {
+  margin-left: 6%;
+}
+label input {
+  padding: 4px;
+  border-radius: 8px;
+}
+.shop-now {
+  position: absolute;
+  left: 5%;
+  top: 120%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.Shop-sleeping-bags {
+  position: absolute;
+  left: 10%;
+  margin-top: 36%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.shop-pack {
+  position: absolute;
+  left: 42%;
+  margin-top: 36%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.shop-tent {
+  position: absolute;
+  left: 77%;
+  margin-top: 36%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textcontent1 {
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 500%;
+  margin-left: 55px;
+  color: white;
+  margin-top: 500px;
+}
+
+.textcontent2 {
+  margin-top: 1100px;
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 620%;
+  margin-left: 65px;
+  color: white;
+}
+
+.textcontent3 {
+  height: 140px;
+  width: 40%;
+  position: absolute;
+  top: 770%;
+  margin-left: 65px;
+  color: white;
+  margin-top: 1650px;
+}
+
+.find-tent {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.shopbags {
+  position: relative;
+  left: 3%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textcontent1 a:hover {
+  color: white;
+}
+
+.footer {
+  background-color: #00000E;
+  color: #fff;
+  padding: 30px 20px ;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+}
+
+.footer-container {
+   /* display: flex; */
+   flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 1000px;
+  margin-left:45px ;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: yellow;
+}
+
+/* email */
+.email {
+  background-color: #00000E; /* Matches the dark theme */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin-top: 5px;
+}
+
+.email h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.email p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.email-form {
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+}
+
+.email-form input {
+  flex: 2;
+  padding: 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #00000E;
+  color: #fff;
+  font-weight: bold;
+}
+
+.email-form input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.email-form button {
+  flex: 1;
+  padding: 14px;
+  background-color: #fff;
+  color: #00000E;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.footer-bottom {
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  font-size: 10px;
+  color: #ccc;
+}
+
+.footer-links a {
+  margin-left: 40px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  
+  label {
+    margin-left: 4%;
+  }
+
+  label input {
+    padding: 3px;
+    border-radius: 6px;
+    width: 80%;
+  }
+
+  .shop-now
+  /* .Shop-sleeping-bags,
+  .shop-pack,
+  /* /* .shop-tent  */
+   {  
+    position: absolute;
+    margin: 20px;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 4%;
+    left:3%;
+  }
+  .Shop-sleeping-bags {
+  position: absolute;
+  left: 5%;
+  margin-top: 57%;
+  padding: 3px;
+  height: 35px;
+  width: 23%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.shop-pack
+{
+    position: absolute;
+  left: 42%;
+  margin-top: 57%;
+  padding: 3px;
+  height: 35px;
+  width: 15%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.shop-tent
+{
+    position: absolute;
+  left: 75%;
+  margin-top: 57%;
+  padding: 3px;
+  height: 35px;
+  width: 15%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.image {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-div1 {
+  height: 500px;
+  width: 60%;
+}
+.image-div1 img {
+  height: 500px;
+  width: 100%;
+}
+.image-div2 {
+  height: 500px;
+  width: 60%;
+  margin-left: 1%;
+}
+.image-div2 img {
+  height: 500px;
+  width: 100%;
+}
+.image-div3 {
+  height: 500px;
+  width: 60%;
+  margin-left: 1%;
+}
+.image-div3 img {
+  height: 500px;
+  width: 100%;
+}
+
+.textcontent1 {
+  height: 140px;
+  width: 70%;
+  position: absolute;
+  top: 495%;
+  margin-left: 55px;
+  color: white;
+  margin-top: 500px;
+  font-size: 20px;
+}
+
+.find-tent {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+  .footer {
+    padding: 20px 10px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .footer-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .email {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .email-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-form input,
+  .email-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 5px 0;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  
+  label {
+    margin-left: 4%;
+  }
+
+  label input {
+    padding: 3px;
+    border-radius: 6px;
+    width: 80%;
+  }
+
+  .shop-now
+  /* .Shop-sleeping-bags,
+  .shop-pack,
+  /* /* .shop-tent  */
+   {  
+    position: absolute;
+    margin: 20px;
+    width: 20%;
+    height: 40px;
+    padding: 7px;
+    font-size: 12px;
+    margin-top: 4%;
+    left:3%;
+  }
+  .Shop-sleeping-bags {
+  position: absolute;
+  font-size: 12px;
+  left: 5%;
+  margin-top: 90%;
+  padding: 3px;
+  height: 32px;
+  width: 25%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.shop-pack
+{
+    position: absolute;
+      font-size: 12px;
+  left: 42%;
+  margin-top: 90%;
+  padding: 3px;
+  height: 35px;
+  width: 15%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.shop-tent
+{
+    position: absolute;
+  left: 75%;
+    font-size: 12px;
+  margin-top: 90%;
+  padding: 3px;
+  height: 35px;
+  width: 15%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.image {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-div1 {
+  height: 500px;
+  width: 60%;
+}
+.image-div1 img {
+  height: 500px;
+  width: 100%;
+}
+.image-div2 {
+  height: 500px;
+  width: 60%;
+  margin-left: 1%;
+}
+.image-div2 img {
+  height: 500px;
+  width: 100%;
+}
+.image-div3 {
+  height: 500px;
+  width: 60%;
+  margin-left: 1%;
+}
+.image-div3 img {
+  height: 500px;
+  width: 100%;
+}
+
+.textcontent1 {
+  height: 140px;
+  width: 70%;
+  position: absolute;
+  top: 495%;
+  margin-left: 55px;
+  color: white;
+  margin-top: 490px;
+  font-size: 12px;
+}
+.textcontent2 {
+  margin-top: 2200px;
+  height: 160px;
+  width: 50%;
+  position: absolute;
+  top: 365%;
+  margin-left: 30px;
+  color: white;
+    font-size: 12px;
+}
+.textcontent3 {
+  height: 140px;
+  width: 70%;
+  position: absolute;
+  top: 450%;
+  margin-left: 65px;
+  color: white;
+  margin-top: 3000px;
+  font-size: 12px;
+}
+.find-tent {
+  position: relative;
+  left: 1%;
+  margin-top: 28%;
+  padding: 12px;
+  height: 55px;
+  width: 16%;
+  background-color: #241f1f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+  .footer {
+    padding: 20px 10px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .footer-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .email {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .email-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-form input,
+  .email-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 5px 0;
+  }
+
+}
+
